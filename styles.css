@@ -1,0 +1,78 @@
+* {
+  text-align: center;
+}
+
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu ul li {
+  padding: 10px 30px;
+}
+
+.menu ul li + li {
+  border-left: 1px black solid;
+}
+
+.banner {
+  background-color: #58ABB1;
+}
+
+.gallery-photos{
+  margin: 0 20% 0 20%;
+}
+.gallery-photos td {
+  border: 1px black solid;
+  padding: 20px;
+}
+.gallery-photos td img{
+  width: 100%;
+}
+
+.testimonials img {
+  border-radius: 50%;
+}
+
+.testimonials .profession {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.testimonials p {
+  margin: 0 25% 2rem 25%;  /* 2rem to add a small margin from the video beneath */
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 40px;  /* to compensate for the bullet in the list */
+}
+
+.social-media li {
+  margin: 2px;
+}
+
+.social-media img {
+  width: 50px;
+}
+
+.contact table {
+  width: 100%;
+  padding: 0 40% 0 40%;
+}
+
+.contact button {
+  margin-top: 10px;
+}
+
+.map {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 20px;
+}
